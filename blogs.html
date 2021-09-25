@@ -2,159 +2,95 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Projects</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="UTF-8">
-	<meta name="description" content="Aayush jain's Personal Site.">
-	<meta name="keywords" content="Aayush jain, Website, Startup, Tech, Business">
-	<meta name="author" content="Aayush jain">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aayush Jain</title>
+    <link rel="stylesheet" href="style.css">
 
-	<link rel="icon" href="icons/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
 
-	<link
-		href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-		rel="stylesheet">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-	<!-- fontawesome cdn -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-	<link href="style.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/image/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/image/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/image/favicon-16x16.png">
+    <link rel="manifest" href="/image/site.webmanifest">
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
-		<div class="container"><a class="navbar-brand js-scroll-trigger" href="index.html"><strong>Aayush Jain</strong>
-			</a>
-			<button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded "
-				type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
-				aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+    <nav class="navigation container">
+        <div class="nav-brand"><a href="/">Aayush Jain</a></div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="/project.html">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/mark15.html">Mark-15</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="/blogs.html">Blogs</a>
+            </li>
+        </ul>
+    </nav>
+    <header class="hero">
+        <img class="hero-img" src="image/heading2.svg" />
+        <h1 class="hero-heading"> My <span class="heading-inverted"> Blogs</span></h1>
+    </header>
+    <!-- <header class="hero">
+        <h1 class="hero-heading"> My <span class="heading-inverted"> Blogs</span></h1>
+    </header> -->
 
-			<div class="collapse navbar-collapse" id="navbarResponsive">
-				<ul class="navbar-nav ml-auto">
+    <ul class="list-non-bullet">
+        <li>
+            <article class="showcase-list container ">
+                <h1>Scopes in JavaScript</h1>
+                <p>The scope is a policy that manages the accessibility of variables. The accessibility of variables is limited by the
+                scope where they’re created. You are free to access the variable defined within its scope.</p>
+            <small>Sept, 2021</small>        
+            <div class="btn_container">
+                <a class="link link-primary" href="https://dev.to/aayushjaincode/scopes-in-javascript-49fi">Read More</a>
+            </div>
+            </article>
+            
+        </li>
+        <li>
+            <article class="showcase-list container ">
+                <h1>What is a Promise in JavaScript ?</h1>
+                <p>A promise is an object that may produce a single value some time in the future: either a resolved value, or a reason
+                that it’s not resolved (e.g., a network error occurred).</p>
+            <small>Aug, 2021</small>
+            <div class="btn_container">
+                <a class="link link-primary" href="https://dev.to/aayushjaincode/what-is-a-promise-javascript-14lb">Read More</a>
+            </div>
+            </article>
+            
+        </li>
 
-					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-							href="projects.html">PROJECTS</a>
-					</li>
+    </ul>
 
-					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-							href="mark15.html">Mark-15</a>
-					</li>
-					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-							href="blogs.html">BLOGS</a>
-					</li>
+    <footer class="footer">
+        <div class="footer-header">Connect With Me</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/Aayushjain-code">
+                    <i class="fab fa-github"></i> github
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/the_aayush_jain">
+                    <i class="fab fa-twitter"></i> twitter
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://www.linkedin.com/in/aayush-jain-code/">
+                    <i class="fab fa-linkedin"></i> linkedin
+                </a>
+            </li>
 
+        </ul>
+    </footer>
 
-
-				</ul>
-			</div>
-		</div>
-	</nav>
-	<hr style="padding: 2vh;">
-
-
-
-	<section id="proj" class="ghostwhite">
-		<div class="container">
-			<h1 class="section-title">Blogs</h1>
-
-			<div class="proj-list">
-
-				<!-- blog start -->
-				<section class="offwhiteback">
-					<div class="container">
-						<div class="proj">
-							<h2>Scopes in JavaScript</h2>
-							<p class="proj-details">
-								The scope is a policy that manages the accessibility of variables.
-								The accessibility of variables is limited by the scope where they’re created.
-								You are free to access the variable defined within its scope.
-							</p>
-						</div>
-
-						<a href="https://dev.to/aayushjaincode/scopes-in-javascript-49fi">
-							<button class="header-button">
-								Read More...
-							</button>
-						</a>
-					</div>
-				</section>
-				<!-- blog ends -->
-
-				<!-- blog start -->
-				<section class="whiteback">
-					<div class="container">
-						<div class="proj">
-							<h2>What is a Promise in JavaScript ?</h2>
-							<p class="proj-details">
-								A promise is an object that may produce a single value 
-								some time in the future: either a resolved value, or a reason that 
-								it’s not resolved (e.g., a network error occurred).
-							</p>
-						</div>
-
-						<a href="https://dev.to/aayushjaincode/what-is-a-promise-javascript-14lb">
-							<button class="header-button">
-								Read More...
-							</button>
-						</a>
-					</div>
-				</section>
-				<!-- blog ends -->
-
-
-
-			</div>
-		</div>
-	</section>
-
-
-
-	<section id="connect" class="whiteback" style="padding-top:0px;">
-		<br>
-		<div class="container">
-			<h1 class="section-title">Let's Connect</h1>
-
-			<div class="connect-list">
-				<div class="connect">
-					<a href="https://www.linkedin.com/in/aayush-jain-code/" target="_blank">LinkedIn</a>
-				</div>
-				<div class="connect">
-					<a href="https://github.com/Aayushjain-code" target="_blank">Github</a>
-				</div>
-				<div class="connect">
-					<a href="https://twitter.com/the_aayush_jain" target="_blank">Twitter</a>
-				</div>
-				<div class="connect">
-					<a href="mailto:aayushjain602@gmail.com" target="_blank">Gmail</a>
-				</div>
-				<div class="connect">
-					<a href="https://www.instagram.com/brandingaayu/" target="_blank">Instagram</a>
-				</div>
-			</div>
-	</section>
-
-	<section id="footer" class="yellow">
-
-		<div class="footer-text text-center">
-			&copy; <span id="year">2021</span> | <a href="https://github.com/Aayushjain-code" target="_blank"
-				class="text-dark">Aayush jain</a>
-		</div>
-
-
-
-		<!-- Bootstrap core JS-->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-
-		<script>
-			document.getElementById("year").innerText = new Date().getFullYear();
-		</script>
 
 </body>
 
