@@ -1,269 +1,105 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173903540-2"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aayush Jain</title>
+    <!-- CSSv file link -->
+    <link rel="stylesheet" href="style.css">
 
-		gtag('config', 'UA-173903540-2');
-	</script>
+    <!-- /fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <!-- googlefont -->
 
-	<title>Aayush jain</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="UTF-8">
-	<meta name="description" content="Aayush jain's Personal Site.">
-	<meta name="keywords" content="Aayush jain, Website, Startup, Tech, Business">
-	<meta name="author" content="Aayush jain">
-
-	<link rel="icon" href="icons/favicon.png" type="image/png">
-
-	<link
-		href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-		rel="stylesheet">
-	
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-	<link href="style.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/image/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/image/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/image/favicon-16x16.png">
+    <link rel="manifest" href="/image/site.webmanifest">
 </head>
 
+<body>
+    <nav class="navigation container">
+        <div class="nav-brand"><a href="/">Aayush Jain</a></div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="project.html">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/mark15.html">Mark-15</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/blogs.html">Blogs</a>
+            </li>
+        </ul>
+       <div class="resume_download"><a href="/Aayush_jain_2021.pdf"><i class="fas fa-file-download" style="padding: 0.3rem;"></i></a></div>
+    </nav>
+
+    <header class="hero">
+        <img class="hero-img" src="image/heading1.svg" />
+        <h1 class="hero-heading">Aayush Jain, the <span class="heading-inverted"> Web Developer</span></h1>
+    </header>
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Technologies</h1>
+            <div class="skill_container">
+                <button class="btn"> HTML</button>
+                <button class="btn"> CSS</button>
+                <button class="btn"> JavaScript</button>
+                <button class="btn">React.JS</button>
+                <button class="btn">Node.JS</button>
+                <button class="btn">Express.JS</button>
+                <button class="btn">MySql</button>
+                <button class="btn">MongoDB</button>
+                <button class="btn">Bootstrap</button>
+                <button class="btn">Material UI</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container container-center">
+            <h1>Projects</h1>
+            <p>I like to showcase my work and thus, you can see my projects hosted online</p>
+            <a class="link link-primary" href="/project.html">See Projects</a>
+        </div>
+    </section>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Blogs</h1>
+            <p>A blog can be utilized as a platform to showcase your knowledge and expertise.</p>
+            <div class="skill_container">
+                <a class="link link-primary" href="/blogs.html">See Blogs</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-header">Connect With Me</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/Aayushjain-code">
+                    <i class="fab fa-github"></i> github
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/the_aayush_jain">
+                    <i class="fab fa-twitter"></i> twitter
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://www.linkedin.com/in/aayush-jain-code/">
+                    <i class="fab fa-linkedin"></i> linkedin
+                </a>
+            </li>
+
+        </ul>
+    </footer>
 
-
-
-
-<body class="fluid-container">
-
-
-	<nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
-		<div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top"><strong>Aayush Jain</strong>
-			</a>
-			<button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded "
-				type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
-				aria-expanded="false" aria-label="Toggle navigation">
-				<i class="fas fa-bars" style="color:rgb(255, 255, 255); "></i>
-			</button>
-
-
-			<div class="collapse navbar-collapse" id="navbarResponsive">
-				<ul class="navbar-nav ml-auto">
-
-					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-							href="projects.html">PROJECTS</a>
-					</li>
-
-					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-							href="mark15.html">Mark-15</a>
-					</li>
-				    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-							href="blogs.html">BLOGS</a>
-					</li>
-
-
-
-				</ul>
-			</div>
-		</div>
-	</nav>
-
-
-	<hr>
-
-
-	<hr>
-	<header class="yellow" id="page-top">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-sm-12">
-					<h1>Hi, I am Aayush Jain..</h1>
-					<h3>Full-Stack Developer</h3>
-
-					<p class="subtext">
-						I am a final-year engineering student at University Institute of technology,Bhopal.
-
-						I am into software development, with inclination towards Frontend technologies.
-
-						I like to discuss about technologies and startups.
-
-						I have worked with Frontend technologies like React,JavaScript ,etc.
-
-					</p>
-
-					<a href="#footer">
-						<button class="header-button">
-							Connect
-						</button>
-					</a>
-
-					<a href="https://drive.google.com/file/d/1DpU12bwG24uoo-HU75BFySXy5Ke6MGH0/view?usp=sharing"
-						target="_blank">
-						<button class="header-button resume">
-							Resume
-						</button>
-					</a>
-				</div>
-				<div class="col-md-4 d-sm-none">
-					<!-- Some cool thing will go here -->
-				</div>
-			</div>
-		</div>
-	</header>
-
-
-
-
-	<!-- <section id="workex" class="ghostwhite">
-		<div class="container">
-			<h1 class="section-title">Work Experience</h1>
-			<div class="workex-list">
-				<div class="workex">
-					<p class="company">abc</p>
-					<p class="position">Web Developer</p>
-					<p class="timeline">XXXXXXXXX</p>
-					<p class="details">
-						lorem epsum
-					</p>
-				</div>
-			</div>
-		</div>
-	</section> -->
-
-	<section id="tech" class="whiteback">
-		<div class="container">
-			<h1 class="section-title">Technical Strengths</h1>
-
-			<div class="tech-list">
-				<div class="row tech">
-					<div class="col-md-3 col-sm-12 skill-title">Scripting Languages, Frameworks & Libraries</div>
-					<div class="col-md-7 col-sm-12 skill-details">JavaScript/ECMAScript,NodeJS, React</div>
-				</div>
-
-				<div class="row tech">
-					<div class="col-md-3 col-sm-12 skill-title">Programming Languages & Core Skills</div>
-					<div class="col-md-7 col-sm-12 skill-details">C, C++, Data Structures & Algorithms, OOP, Database Management</div>
-				</div>
-
-				<div class="row tech">
-					<div class="col-md-3 col-sm-12 skill-title">Databases & Tools</div>
-					<div class="col-md-7 col-sm-12 skill-details">MySQL, MongoDb , Git, Github, Visual Studio</div>
-				</div>
-
-			</div>
-		</div>
-	</section>
-
-
-
-
-
-	<section id="proj" class="pinkback">
-		<div class="container">
-			<h1 class="section-title">Projects</h1>
-
-			<div class="proj">
-				<p class="proj-title">I like to showcase my work and thus, you can see my projects hosted online</p>
-
-			</div>
-
-			<a href="projects.html">
-				<button class="header-button">
-					Know More
-				</button>
-			</a>
-		</div>
-	</section>
-
-	<!-- <section id="blog" class="offwhiteback">
-		<div class="container">
-			<h1 class="section-title">Blogs</h1>
-
-			<div class="proj">
-				<p class="proj-title">Checkout my blogs here.</p>
-
-			</div>
-
-			<a href="blogs.html">
-				<button class="header-button">
-					Know More
-				</button>
-			</a>
-		</div>
-	</section> -->
-
-
-
-
-
-
-	<section id="education" class="yellow" style="padding-top: 10px; padding-bottom: 10px;">
-		<br>
-		<div class="container">
-			<h1 class="section-title">Education</h1>
-
-			<div class="education-list">
-				<div class="education">
-					<p class="insti">University Institute Of Technology,Bhopal | <i> July 2018 - Present</i></p>
-					<p class="course">Bachelor of Technology (Electronics and Communication Engineering)</p>
-				</div>
-			</div>
-
-			<div class="education-list">
-				<div class="education">
-					<p class="insti">St. Paul's Senior Secondary Co-Ed School,Bhopal | <i>March 2017</i></p>
-					<p class="course">12th (Science) - CBSE</p>
-				</div>
-			</div>
-
-			<div class="education-list">
-				<div class="education">
-					<p class="insti">St. Paul's Senior Secondary Co-Ed School,Bhopal | <i>March 2015</i></p>
-					<p class="course">10th (SSC) - CBSE</p>
-				</div>
-			</div>
-
-		</div>
-	</section>
-
-
-	<section id="connect" class="whiteback" style="padding-top:0px;">
-		<br>
-		<div class="container">
-			<h1 class="section-title">Let's Connect</h1>
-
-			<div class="connect-list">
-				<div class="connect">
-					<a href="https://www.linkedin.com/in/aayush-jain-code/" target="_blank">LinkedIn</a>
-				</div>
-				<div class="connect">
-					<a href="https://github.com/Aayushjain-code" target="_blank">Github</a>
-				</div>
-				<div class="connect">
-					<a href="https://twitter.com/the_aayush_jain" target="_blank">Twitter</a>
-				</div>
-				<div class="connect">
-					<a href="mailto:aayushjain602@gmail.com" target="_blank">Gmail</a>
-				</div>
-				<div class="connect">
-					<a href="https://www.instagram.com/brandingaayu/" target="_blank">Instagram</a>
-				</div>
-			</div>
-	</section>
-
-	<section id="footer" class="yellow">
-
-		<div class="footer-text text-center">
-			&copy; <span id="year">2021</span> | <a href="https://github.com/Aayushjain-code" target="_blank"
-				class="text-dark">Aayush jain</a>
-		</div>
-	</section>
-
-
-
-
-	<script>
-		document.getElementById("year").innerText = new Date().getFullYear();
-	</script>
 
 </body>
 
