@@ -15,6 +15,7 @@ small{
   background-color: #F0A500;
   padding:2px;
   border: 2px solid red;
+  border-radius: 5px;
 }
 hr {
   margin: 2rem 0rem;
