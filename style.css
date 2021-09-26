@@ -12,7 +12,9 @@ body {
 }
 
 small{
-background-color: #F0A500;
+  background-color: #F0A500;
+  padding:2px;
+  border: 2px solid red;
 }
 hr {
   margin: 2rem 0rem;
