@@ -11,6 +11,9 @@ body {
   margin: 0px;
 }
 
+small{
+background-color: #F0A500;
+}
 hr {
   margin: 2rem 0rem;
 }
